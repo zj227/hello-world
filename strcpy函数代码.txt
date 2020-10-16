@@ -1,0 +1,18 @@
+char* StrCpy(char*src)
+{
+	int len;
+	len=stelen(src);
+	char *des;
+	des=(char*)malloc(sizeof(int)*(len+1));
+	assert(des != NULL && src != NULL);
+    	if(des==NULL && src == NULL)
+    	{
+        	return;
+   	}
+    	int i;
+    	for(i=0;*src!='\0';i++)
+    	{
+       	 des[i]=src[i];
+  	 }
+    	des[i]='\0';
+}
