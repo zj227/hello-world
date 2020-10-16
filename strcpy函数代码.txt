@@ -11,3 +11,9 @@ char* StrCpy(char*src)
     	des[i]='\0';
 	return des；
 }
+/*/*/*/*/*/*
+strcpy函数代码
+*/*/*/*/*/*/
+/**
+本地编辑
+**/
